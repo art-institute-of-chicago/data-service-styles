@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "aliases": {
+      "$type": "color",
+      "black": {
+        "$value": "{colors.scales.grey.100}"
+      },
+      "blue": {
+        "$value": "{colors.scales.blue.100}"
+      },
+      "cold-white": {
+        "$value": "{colors.scales.grey.6}"
+      },
+      "japanese-indigo": {
+        "$value": "{colors.scales.blue.190}"
+      },
+      "orange": {
+        "$value": "{colors.scales.red.80}"
+      },
+      "plum": {
+        "$value": "{colors.scales.blue.40}"
+      },
+      "white": {
+        "$value": "{colors.scales.grey.0}"
+      }
+    }
+  }
+}

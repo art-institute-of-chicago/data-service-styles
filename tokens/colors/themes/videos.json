@@ -1,0 +1,58 @@
+{
+  "colors.themes": {
+    "videos": {
+      "$type": "color",
+      "background": {
+        "primary": {
+          "$value": "{colors.themes.dark-mode.background.primary}"
+        },
+        "selected": {
+          "$value": "{colors.themes.dark-mode.background.selected}"
+        }
+      },
+      "image": {
+        "overlay": {
+          "$value": "{colors.themes.dark-mode.image.overlay}"
+        }
+      },
+      "link": {
+        "primary": {
+          "$value": "{colors.themes.dark-mode.link.primary}"
+        },
+        "accent": {
+          "$value": "{colors.themes.dark-mode.link.accent}"
+        },
+        "tab": {
+          "primary": {
+            "$value": "{colors.themes.dark-mode.link.tab.primary}"
+          },
+          "active": {
+            "$value": "{colors.themes.dark-mode.link.tab.active}"
+          }
+        }
+      },
+      "rules": {
+        "primary": {
+          "$value": "{colors.themes.dark-mode.rules.primary}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$value": "{colors.themes.dark-mode.text.primary}"
+        },
+        "secondary": {
+          "$value": "{colors.themes.dark-mode.text.secondary}"
+        },
+        "tertiary": {
+          "$value": "{colors.themes.dark-mode.text.tertiary}"
+        },
+        "accent": {
+          "$value": "{colors.themes.dark-mode.text.accent}"
+        },
+        "title": {
+          "$value": "{colors.scales.grey.90}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "colors": {
+    "names": {
+      "$type": "color",
+      "digipub": {
+        "blue": {
+          "darkest": {
+            "$value": "#1e2753"
+          },
+          "light": {
+            "$value": "#a0b8e8"
+          }
+        },
+        "brown": {
+          "darkest": {
+            "$value": "#3f2d22"
+          },
+          "light": {
+            "$value": "#c3aea1"
+          }
+        },
+        "grey": {
+          "darkest": {
+            "$value": "#282829"
+          },
+          "light": {
+            "$value": "#c6c3c5"
+          }
+        },
+        "green": {
+          "darkest": {
+            "$value": "#2d3e23"
+          },
+          "light": {
+            "$value": "#adc47c"
+          }
+        },
+        "orange": {
+          "darkest": {
+            "$value": "#8e351f"
+          },
+          "light": {
+            "$value": "#ffa66e"
+          }
+        },
+        "purple": {
+          "darkest": {
+            "$value": "#3a254f"
+          },
+          "light": {
+            "$value": "#ae96d0"
+          }
+        },
+        "red": {
+          "darkest": {
+            "$value": "#620c17"
+          },
+          "light": {
+            "$value": "#df98ac"
+          }
+        },
+        "teal": {
+          "darkest": {
+            "$value": "#1e3d47"
+          },
+          "light": {
+            "$value": "#91c8cd"
+          }
+        },
+        "yellow": {
+          "darkest": {
+            "$value": "#ce8d19"
+          },
+          "light": {
+            "$value": "#fff181"
+          }
+        }
+      },
+      "magazine": {
+        "byzantium": {
+          "$value": "#6f2562"
+        }
+      },
+      "my-museum-tour": {
+        "teal": {
+          "dark": {
+            "$value": "#1e3f49"
+          },
+          "medium": {
+            "$value": "#41949b"
+          },
+          "light": {
+            "$value": "#b1dfdb"
+          }
+        }
+      },
+      "research-center": {
+        "yankees-blue": {
+          "$comment": "Originally $color__yankees-blue",
+          "$value": "#201e48"
+        }
+      },
+      "rlc": {
+        "antique-white": {
+          "$value": "#f8e8d8"
+        },
+        "apricot": {
+          "$value": "#f4ccaf"
+        },
+        "atomic-tangerine": {
+          "$value": "#ff9d6c"
+        },
+        "blue-sapphire": {
+          "$value": "#075a71"
+        },
+        "fawn": {
+          "$value": "#ec9e6c"
+        },
+        "fire-opal": {
+          "$value": "#e66144"
+        },
+        "japanese-indigo": {
+          "$value": "#1e3f49"
+        },
+        "maastricth-blue": {
+          "$value": "#00263a"
+        },
+        "maize": {
+          "$value": "#f3c143"
+        },
+        "myrtle-green": {
+          "$value": "#246871"
+        },
+        "sunglow": {
+          "$value": "#f9c83e"
+        },
+        "vermilion": {
+          "$value": "#de2f1b"
+        }
+      }
+    }
+  }
+}

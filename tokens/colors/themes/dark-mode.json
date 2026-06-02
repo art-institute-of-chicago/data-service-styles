@@ -1,0 +1,66 @@
+{
+  "colors.themes": {
+    "dark-mode": {
+      "$type": "color",
+      "background": {
+        "primary": {
+          "$value": "{colors.scales.grey.81}"
+        },
+        "secondary": {
+          "$value": "{colors.scales.grey.78}"
+        },
+        "selected": {
+          "$value": "{colors.scales.grey.93}"
+        }
+      },
+      "link": {
+        "primary": {
+          "$value": "{colors.scales.grey.0}"
+        },
+        "accent": {
+          "$value": "{colors.scales.grey.30}"
+        },
+        "tab": {
+          "primary": {
+            "$value": "{colors.scales.grey.42}"
+          },
+          "active": {
+            "$value": "{colors.scales.grey.0}"
+          }
+        }
+      },
+      "rules": {
+        "primary": {
+          "$value": "{colors.scales.grey.54}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$value": "{colors.scales.grey.0}"
+        },
+        "secondary": {
+          "$value": "{colors.scales.grey.10}"
+        },
+        "tertiary": {
+          "$value": "{colors.scales.grey.20}"
+        },
+        "accent": {
+          "$value": "{colors.scales.grey.54}"
+        }
+      },
+      "image": {
+        "overlay": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.1,
+              0.1,
+              0.1
+            ],
+            "alpha": 0.80
+          }
+        }
+      }
+    }
+  }
+}

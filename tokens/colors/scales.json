@@ -1,0 +1,185 @@
+{
+  "colors": {
+    "scales": {
+      "$type": "color",
+      "grey": {
+        "0": {
+          "$value": "#fff"
+        },
+        "2": {
+          "$value": "#fbfbfb"
+        },
+        "3": {
+          "$value": "#f8f8f8"
+        },
+        "4": {
+          "$comment": "Originally $color__black--3-5",
+          "$value": "#f6f5f4"
+        },
+        "5": {
+          "$value": "#f3f3f3"
+        },
+        "6": {
+          "$comment": "Originally $color__cold-white",
+          "$value": "#f3f6f8"
+        },
+        "10": {
+          "$value": "#e6e6e6"
+        },
+        "12": {
+          "$comment": "Originally $color__link--publications-hover",
+          "$value": "#dcddde"
+        },
+        "15": {
+          "$value": "#d9d9d9"
+        },
+        "20": {
+          "$value": "#ccc"
+        },
+        "22": {
+          "$value": "#c7c7c7"
+        },
+        "25": {
+          "$value": "#bfbfbf"
+        },
+        "30": {
+          "$value": "#b3b3b3"
+        },
+        "35": {
+          "$value": "#a6a6a6"
+        },
+        "40": {
+          "$value": "#999"
+        },
+        "42": {
+          "$value": "#949494"
+        },
+        "45": {
+          "$comment": "Originally $color__link--publications-active",
+          "$value": "#9d9fa2"
+        },
+        "49": {
+          "$value": "#828282"
+        },
+        "50": {
+          "$value": "#808080"
+        },
+        "52": {
+          "$comment": "Originally $color__grey--100",
+          "$value": "#7e746d"
+        },
+        "54": {
+          "$value": "#767676"
+        },
+        "58": {
+          "$comment": "Originally $color__grey--110",
+          "$value": "#6e665f"
+        },
+        "60": {
+          "$value": "#666"
+        },
+        "61": {
+          "$value": "#636363"
+        },
+        "65": {
+          "$comment": "Originally $color__grey--120",
+          "$value": "#5f5752"
+        },
+        "72": {
+          "$value": "#474747"
+        },
+        "75": {
+          "$value": "#404040"
+        },
+        "78": {
+          "$value": "#3d3d3e"
+        },
+        "80": {
+          "$value": "#333"
+        },
+        "81": {
+          "$value": "#282829"
+        },
+        "85": {
+          "$value": "#262626"
+        },
+        "89": {
+          "$value": "#1c1c1c"
+        },
+        "90": {
+          "$value": "#1a1a1a"
+        },
+        "91": {
+          "$value": "#171717"
+        },
+        "93": {
+          "$value": "#121212"
+        },
+        "100": {
+          "$value": "#000"
+        }
+      },
+      "red": {
+        "5": {
+          "$value": "#fbf3f6"
+        },
+        "75": {
+          "$comment": "Originally $color__error",
+          "$value": "#ce2445"
+        },
+        "80": {
+          "$comment": "Originally $color__orange",
+          "$value": "#c95100"
+        },
+        "95": {
+          "$comment": "Originally $color__orange--hover",
+          "$value": "#b54900"
+        },
+        "100": {
+          "$value": "#b50938"
+        },
+        "110": {
+          "$value": "#a30832"
+        },
+        "115": {
+          "$comment": "Originally $color__orange--active",
+          "$value": "#a14100"
+        },
+        "120": {
+          "$value": "#91072d"
+        }
+      },
+      "blue": {
+        "40": {
+          "$comment": "Originally $color__plum",
+          "$value": "#6f2562"
+        },
+        "100": {
+          "$value": "#083f6e"
+        },
+        "110": {
+          "$value": "#063258"
+        },
+        "120": {
+          "$value": "#052642"
+        },
+        "160": {
+          "$comment": "Originally $color__teal",
+          "$value": "#008085"
+        },
+        "170": {
+          "$comment": "Originally $color__teal--hover",
+          "$value": "#007378"
+        },
+        "180": {
+          "$comment": "Originally $color__teal--active",
+          "$value": "#00666a"
+        },
+        "190": {
+          "$comment": "Originally $color__japanese-indigo",
+          "$value": "#1e3f49"
+        }
+      }
+    }
+  }
+}
