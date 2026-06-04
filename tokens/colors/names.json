@@ -4,75 +4,75 @@
       "$type": "color",
       "digipub": {
         "blue": {
-          "darkest": {
-            "$value": "#1e2753"
+          "dark": {
+            "$value": "{colors.scales.blue.darkest}"
           },
           "light": {
-            "$value": "#a0b8e8"
+            "$value": "{colors.scales.blue.light}"
           }
         },
         "brown": {
-          "darkest": {
-            "$value": "#3f2d22"
+          "dark": {
+            "$value": "{colors.scales.brown.darkest}"
           },
           "light": {
-            "$value": "#c3aea1"
+            "$value": "{colors.scales.brown.light}"
           }
         },
         "grey": {
-          "darkest": {
-            "$value": "#282829"
+          "dark": {
+            "$value": "{colors.scales.grey.darkest}"
           },
           "light": {
-            "$value": "#c6c3c5"
+            "$value": "{colors.scales.grey.light}"
           }
         },
         "green": {
-          "darkest": {
-            "$value": "#2d3e23"
+          "dark": {
+            "$value": "{colors.scales.green.darkest}"
           },
           "light": {
-            "$value": "#adc47c"
+            "$value": "{colors.scales.green.light}"
           }
         },
         "orange": {
-          "darkest": {
-            "$value": "#8e351f"
+          "dark": {
+            "$value": "{colors.scales.orange.darkest}"
           },
           "light": {
-            "$value": "#ffa66e"
+            "$value": "{colors.scales.orange.light}"
           }
         },
-        "purple": {
-          "darkest": {
-            "$value": "#3a254f"
+        "violet": {
+          "dark": {
+            "$value": "{colors.scales.violet.darkest}"
           },
           "light": {
-            "$value": "#ae96d0"
+            "$value": "{colors.scales.violet.light}"
           }
         },
         "red": {
-          "darkest": {
-            "$value": "#620c17"
+          "dark": {
+            "$value": "{colors.scales.red.darkest}"
           },
           "light": {
-            "$value": "#df98ac"
+            "$value": "{colors.scales.red.light}"
           }
         },
         "teal": {
-          "darkest": {
-            "$value": "#1e3d47"
+          "dark": {
+            "$value": "{colors.scales.teal.darkest}"
           },
           "light": {
-            "$value": "#91c8cd"
+            "$value": "{colors.scales.teal.light}"
           }
         },
         "yellow": {
-          "darkest": {
-            "$value": "#ce8d19"
+          "dark": {
+            "$value": "{colors.scales.yellow.darkest}"
           },
           "light": {
-            "$value": "#fff181"
+            "$value": "{colors.scales.yellow.light}"
           }
         }
       },
