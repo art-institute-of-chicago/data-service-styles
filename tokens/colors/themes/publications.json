@@ -1,0 +1,18 @@
+{
+  "colors.themes": {
+    "publications": {
+      "$type": "color",
+      "link": {
+        "primary": {
+          "$value": "{colors.scales.grey.0}"
+        },
+        "active": {
+          "$value": "{colors.scales.grey.45}"
+        },
+        "hover": {
+          "$value": "{colors.scales.grey.12}"
+        }
+      }
+    }
+  }
+}

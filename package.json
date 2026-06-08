@@ -1,0 +1,17 @@
+{
+  "name": "data-service-styles",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "style-dictionary": "^5.4.3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "colors.themes": {
+    "editorial": {
+      "$type": "color",
+      "text": {
+        "primary": {
+          "$value": "{colors.scales.blue.100}"
+        }
+      },
+      "link": {
+        "primary": {
+          "$value": "{colors.scales.blue.100}"
+        },
+        "active": {
+          "$value": "{colors.scales.blue.120}"
+        },
+        "hover": {
+          "$value": "{colors.scales.blue.110}"
+        }
+      },
+      "background": {
+        "primary": {
+          "$value": "{colors.scales.grey.6}"
+        }
+      }
+    }
+  }
+}

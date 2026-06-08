@@ -1,0 +1,166 @@
+{
+  "colors.themes": {
+    "light-mode": {
+      "$type": "color",
+      "error": {
+        "primary": {
+          "$value": "{colors.scales.red.75}"
+        },
+        "active": {
+          "$value": "{colors.scales.red.115}"
+        },
+        "hover": {
+          "$value": "{colors.scales.red.95}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$value": "{colors.scales.grey.80}"
+        },
+        "title": {
+          "$value": "{colors.scales.grey.90}"
+        }
+      },
+      "background": {
+        "default": {
+          "$comment": "'primary' was already taken, so 'default' it is",
+          "$value": "{colors.scales.grey.0}"
+        },
+        "primary": {
+          "$value": "{colors.scales.grey.5}"
+        },
+        "secondary": {
+          "$value": "{colors.scales.grey.3}"
+        },
+        "tertiary": {
+          "$value": "{colors.scales.grey.54}"
+        },
+        "footer": {
+          "$value": "{colors.scales.grey.80}"
+        },
+        "gallery": {
+          "$value": "{colors.scales.grey.90}"
+        },
+        "editorial": {
+          "$value": "{colors.scales.grey.6}"
+        },
+        "error": {
+          "$value": "{colors.scales.red.5}"
+        }
+      },
+      "rules": {
+        "primary": {
+          "$value": "{colors.scales.grey.10}"
+        },
+        "secondary": {
+          "$value": "{colors.scales.grey.20}"
+        },
+        "tertiary": {
+          "$value": "{colors.scales.grey.5}"
+        },
+        "quaternary": {
+          "$value": "{colors.scales.grey.30}"
+        },
+        "contrast": {
+          "$value": "{colors.scales.grey.75}"
+        },
+        "focus": {
+          "$value": "{colors.scales.grey.90}"
+        },
+        "brand": {
+          "$value": "{colors.scales.red.100}"
+        }
+      },
+      "link": {
+        "primary": {
+          "$value": "{colors.scales.grey.52}"
+        },
+        "active": {
+          "$value": "{colors.scales.grey.58}"
+        },
+        "hover": {
+          "$value": "{colors.scales.grey.65}"
+        },
+        "accent": {
+          "primary": {
+            "$value": "{colors.scales.red.100}"
+          },
+          "active": {
+            "$value": "{colors.scales.red.120}"
+          },
+          "hover": {
+            "$value": "{colors.scales.red.110}"
+          }
+        },
+        "tab": {
+          "primary": {
+            "$value": "{colors.scales.grey.42}"
+          },
+          "active": {
+            "$value": "{colors.scales.grey.90}"
+          },
+          "hover": {
+            "$value": "{colors.scales.grey.54}"
+          }
+        },
+        "new": {
+          "primary": {
+            "$value": "{colors.scales.blue.160}"
+          },
+          "active": {
+            "$value": "{colors.scales.blue.180}"
+          },
+          "hover": {
+            "$value": "{colors.scales.blue.170}"
+          }
+        },
+        "limited": {
+          "primary": {
+            "$value": "{colors.scales.red.80}"
+          },
+          "active": {
+            "$value": "{colors.scales.red.115}"
+          },
+          "hover": {
+            "$value": "{colors.scales.red.95}"
+          }
+        }
+      },
+      "input": {
+        "text": {
+          "primary": {
+            "$value": "{colors.scales.grey.54}"
+          },
+          "focus": {
+            "$value": "{colors.scales.grey.90}"
+          },
+          "hover": {
+            "$value": "{colors.scales.grey.54}"
+          }
+        },
+        "output": {
+          "primary": {
+            "$value": "{colors.scales.grey.42}"
+          }
+        },
+        "border": {
+          "primary": {
+            "$value": "{colors.scales.grey.20}"
+          },
+          "checked": {
+            "$value": "{colors.scales.grey.90}"
+          },
+          "error": {
+            "$value": "{colors.scales.red.100}"
+          },
+          "focus": {
+            "$value": "{colors.scales.grey.80}"
+          },
+          "hover": {
+            "$value": "{colors.scales.grey.42}"
+          }
+        }
+      }
+    }
+  }
+}

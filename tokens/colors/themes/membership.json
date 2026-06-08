@@ -1,0 +1,12 @@
+{
+  "colors.themes": {
+    "membership": {
+      "$type": "color",
+      "text": {
+        "primary": {
+          "$value": "{colors.scales.blue.40}"
+        }
+      }
+    }
+  }
+}

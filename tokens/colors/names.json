@@ -1,0 +1,143 @@
+{
+  "colors": {
+    "names": {
+      "$type": "color",
+      "digipub": {
+        "blue": {
+          "dark": {
+            "$value": "{colors.scales.blue.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.blue.light}"
+          }
+        },
+        "brown": {
+          "dark": {
+            "$value": "{colors.scales.brown.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.brown.light}"
+          }
+        },
+        "grey": {
+          "dark": {
+            "$value": "{colors.scales.grey.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.grey.light}"
+          }
+        },
+        "green": {
+          "dark": {
+            "$value": "{colors.scales.green.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.green.light}"
+          }
+        },
+        "orange": {
+          "dark": {
+            "$value": "{colors.scales.orange.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.orange.light}"
+          }
+        },
+        "violet": {
+          "dark": {
+            "$value": "{colors.scales.violet.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.violet.light}"
+          }
+        },
+        "red": {
+          "dark": {
+            "$value": "{colors.scales.red.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.red.light}"
+          }
+        },
+        "teal": {
+          "dark": {
+            "$value": "{colors.scales.teal.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.teal.light}"
+          }
+        },
+        "yellow": {
+          "dark": {
+            "$value": "{colors.scales.yellow.darkest}"
+          },
+          "light": {
+            "$value": "{colors.scales.yellow.light}"
+          }
+        }
+      },
+      "magazine": {
+        "byzantium": {
+          "$value": "#6f2562"
+        }
+      },
+      "my-museum-tour": {
+        "teal": {
+          "dark": {
+            "$value": "#1e3f49"
+          },
+          "medium": {
+            "$value": "#41949b"
+          },
+          "light": {
+            "$value": "#b1dfdb"
+          }
+        }
+      },
+      "research-center": {
+        "yankees-blue": {
+          "$comment": "Originally $color__yankees-blue",
+          "$value": "#201e48"
+        }
+      },
+      "rlc": {
+        "antique-white": {
+          "$value": "#f8e8d8"
+        },
+        "apricot": {
+          "$value": "#f4ccaf"
+        },
+        "atomic-tangerine": {
+          "$value": "#ff9d6c"
+        },
+        "blue-sapphire": {
+          "$value": "#075a71"
+        },
+        "fawn": {
+          "$value": "#ec9e6c"
+        },
+        "fire-opal": {
+          "$value": "#e66144"
+        },
+        "japanese-indigo": {
+          "$value": "#1e3f49"
+        },
+        "maastricth-blue": {
+          "$value": "#00263a"
+        },
+        "maize": {
+          "$value": "#f3c143"
+        },
+        "myrtle-green": {
+          "$value": "#246871"
+        },
+        "sunglow": {
+          "$value": "#f9c83e"
+        },
+        "vermilion": {
+          "$value": "#de2f1b"
+        }
+      }
+    }
+  }
+}

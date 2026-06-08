@@ -1,0 +1,79 @@
+{
+  "colors": {
+    "contrasts": {
+      "$type": "color",
+      "grey": {
+        "light": {
+          "$value": "{colors.scales.grey.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.grey.darkest}"
+        }
+      },
+      "yellow": {
+        "light": {
+          "$value": "{colors.scales.yellow.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.yellow.darkest}"
+        }
+      },
+      "orange": {
+        "light": {
+          "$value": "{colors.scales.orange.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.orange.darkest}"
+        }
+      },
+      "red": {
+        "light": {
+          "$value": "{colors.scales.red.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.red.darkest}"
+        }
+      },
+      "violet": {
+        "light": {
+          "$value": "{colors.scales.violet.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.violet.darkest}"
+        }
+      },
+      "blue": {
+        "light": {
+          "$value": "{colors.scales.blue.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.blue.darkest}"
+        }
+      },
+      "teal": {
+        "light": {
+          "$value": "{colors.scales.teal.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.teal.darkest}"
+        }
+      },
+      "green": {
+        "light": {
+          "$value": "{colors.scales.green.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.green.darkest}"
+        }
+      },
+      "brown": {
+        "light": {
+          "$value": "{colors.scales.brown.lightest}"
+        },
+        "dark": {
+          "$value": "{colors.scales.brown.darkest}"
+        }
+      }
+    }
+  }
+}
