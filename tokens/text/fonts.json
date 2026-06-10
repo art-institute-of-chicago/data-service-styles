@@ -1,0 +1,122 @@
+{
+  "text": {
+    "fonts": {
+      "$type": "fontFamily",
+      "serif": {
+        "fallback": {
+          "$value": "Times New Roman, serif"
+        },
+        "loaded": {
+          "$value": "'Sabon', {text.fonts.serif.fallback}"
+        }
+      },
+      "sans": {
+        "fallback": {
+          "$value": "Helvetica, Arial, sans-serif"
+        },
+        "loaded": {
+          "$value": "'Ideal Sans A', 'Ideal Sans B', {text.fonts.sans.fallback}"
+        }
+      }
+    },
+    "sizes": {
+      "$type": "fontSize",
+      "root": {
+        "$value": {
+          "value": 5,
+          "unit": "vmin"
+        }
+      },
+      "tiny": {
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        }
+      },
+      "small": {
+        "$value": {
+          "value": 0.9,
+          "unit": "rem"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        }
+      },
+      "large": {
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        }
+      },
+      "double": {
+        "$value": {
+          "value": 2,
+          "unit": "rem"
+        }
+      },
+      "quadruple": {
+        "$value": {
+          "value": 4,
+          "unit": "rem"
+        }
+      }
+    },
+    "weights": {
+      "$type": "fontWeight",
+      "light": {
+        "$value": "300"
+      },
+      "regular": {
+        "$value": "400"
+      },
+      "medium": {
+        "$value": "500"
+      },
+      "demi-bold": {
+        "$value": "600"
+      },
+      "bold": {
+        "$value": "700"
+      }
+    },
+    "lineHeights": {
+      "$type": "number",
+      "normal": {
+        "$value": 1.2
+      },
+      "tall": {
+        "$value": 1.5
+      }
+    },
+    "letterSpacings": {
+      "$type": "number",
+      "wide": {
+        "$value": {
+          "value": 0.15,
+          "unit": "em"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 0.1,
+          "unit": "em"
+        }
+      },
+      "narrow": {
+        "$value": {
+          "value": 0.01,
+          "unit": "em"
+        }
+      },
+      "tight": {
+        "$value": {
+          "value": -0.005,
+          "unit": "em"
+        }
+      }
+    }
+  }
+}

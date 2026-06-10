@@ -1,0 +1,124 @@
+{
+  "text": {
+    "typography": {
+      "$type": "typography",
+      "display": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.medium}",
+          "fontSize": "{text.sizes.quadruple}",
+          "lineHeight": "{text.lineHeights.normal}",
+          "letterSpacing": "{text.letterSpacings.normal}"
+        }
+      },
+      "headline": {
+        "$value": {
+          "fontFamily": "{text.fonts.serif.loaded}",
+          "fontWeight": "{text.weights.medium}",
+          "fontSize": "{text.sizes.double}",
+          "lineHeight": "{text.lineHeights.normal}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "subheading": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.medium}",
+          "fontSize": "{text.sizes.large}",
+          "lineHeight": "{text.lineHeights.normal}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "body": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.medium}",
+          "fontSize": "{text.sizes.normal}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "deck": {
+        "$value": {
+          "fontFamily": "{text.fonts.serif.loaded}",
+          "fontWeight": "{text.weights.medium}",
+          "fontSize": "{text.sizes.large}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.tight}"
+        }
+      },
+      "module-title": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.regular}",
+          "fontSize": "{text.sizes.large}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "secondary": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.light}",
+          "fontSize": "{text.sizes.normal}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "tertiary": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.light}",
+          "fontSize": "{text.sizes.small}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "tag": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.regular}",
+          "fontSize": "{text.sizes.tiny}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.wide}"
+        }
+      },
+      "caption": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.light}",
+          "fontSize": "{text.sizes.small}",
+          "lineHeight": "{text.lineHeights.normal}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      },
+      "list": {
+        "$value": {
+          "fontFamily": "{text.fonts.serif.loaded}",
+          "fontWeight": "{text.weights.regular}",
+          "fontSize": "{text.sizes.large}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.normal}"
+        }
+      },
+      "quote": {
+        "$value": {
+          "fontFamily": "{text.fonts.serif.loaded}",
+          "fontWeight": "{text.weights.regular}",
+          "fontSize": "{text.sizes.large}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.normal}"
+        }
+      },
+      "main-nav": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans.loaded}",
+          "fontWeight": "{text.weights.light}",
+          "fontSize": "{text.sizes.normal}",
+          "lineHeight": "{text.lineHeights.tall}",
+          "letterSpacing": "{text.letterSpacings.narrow}"
+        }
+      }
+    }
+  }
+}
