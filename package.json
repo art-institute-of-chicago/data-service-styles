@@ -1,17 +1,22 @@
 {
-  "name": "data-service-styles",
-  "version": "0.0.0",
-  "description": "",
-  "main": "build.js",
-  "type": "module",
-  "scripts": {
-    "build": "style-dictionary build",
-    "clean": "rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "AGPL-3.0-only",
-  "devDependencies": {
-    "style-dictionary": "^5.4.3"
-  }
+    "$schema": "https://www.schemastore.org/package.json",
+    "license": "AGPL-3.0-only",
+    "name": "data-service-styles",
+    "private": true,
+    "type": "module",
+    "version": "0.0.0",
+    "description": "",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "styles": "style-dictionary build"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^3.1",
+        "style-dictionary": "^5.4.3",
+        "tailwindcss": "^4.0.0",
+        "vite": "^8.0.0"
+    }
 }
