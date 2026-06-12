@@ -1,21 +1,15 @@
-![Art Institute of Chicago](https://raw.githubusercontent.com/Art-Institute-of-Chicago/template/master/aic-logo.gif)
-# Data Service Styles
+# Basic Style Dictionary
 
-## Installing
+This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
 
-```
-npm ci
-```
-
-## Developing
-
-## Building
-
-```
-npm run build
+```bash
+npx style-dictionary build
 ```
 
-## Licensing
+Otherwise, install Style Dictionary locally for this project first, `cd` into this directory and run:
 
-This project is licensed under the [GNU Affero General Public License
-Version 3](LICENSE).
+```bash
+npm init -y && npm install style-dictionary
+```
+
+and then run the above command.
