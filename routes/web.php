@@ -1,48 +1,31 @@
 <?php
 
+use App\Library\TokenFile;
 use Illuminate\Support\Facades\Route;
 
-const TOKENS_DIR = 'tokens/';
-
-$directory = new RecursiveDirectoryIterator(base_path(TOKENS_DIR), FilesystemIterator::SKIP_DOTS);
+// Token files directory iterator
+$directory = new RecursiveDirectoryIterator(base_path(TokenFile::TOKENS_DIR), FilesystemIterator::SKIP_DOTS);
+// Token files iterator
 $files = new RecursiveIteratorIterator($directory);
-
-function getFilepath(SplFileInfo $file)
-{
-    return str($file->getPath())->after(TOKENS_DIR)->append('/' . $file->getFilename())->toString();
-}
-
-function collectItems($tokens)
-{
-    $items = collect();
-    foreach ($tokens as $item => $value) {
-        if (str($item)->startsWith('$type')) {
-            continue;
-        } elseif (is_array($value)) {
-            $items[$item] = collectItems($value);
-        } else {
-            $items[$item] = $value;
-        }
-    }
-    return $items->sortKeys()->toArray();
-}
-
+// For each token file, create two routes
 foreach ($files as $file) {
-    $filepath = getFilepath($file);
+    $filepath = TokenFile::getFilepath($file);
+    // Route to the raw JSON token file
     Route::get($filepath, function() use ($file) {
         return view('json', ['tokens' => file_get_contents($file)]);
     });
 
     $path = str($filepath)->beforeLast('.')->toString();
+    // Route to the human-readable token list
     Route::get($path, function() use ($file) {
         $tokens = json_decode(file_get_contents($file), true);
         $category = array_key_first($tokens);
         $tokens = $tokens[$category];
         $type = array_key_first($tokens);
         $tokens = $tokens[$type];
-        $items = collectItems($tokens);
+        $items = TokenFile::collectItems($tokens);
         return view('tokens', [
-            'filepath' => '/' . getFilepath($file),
+            'filepath' => '/' . TokenFile::getFilepath($file),
             'category' => $category,
             'type' => $type,
             'items' => $items,
@@ -50,12 +33,12 @@ foreach ($files as $file) {
     });
 }
 
-Route::get('/', function () use ($directory, $files) {
+Route::get('/', function () use ($files) {
     $tree = array();
     foreach ($files as $file) {
         $link = (object) [
             'label' => str($file->getFilename())->beforeLast('.'),
-            'href' => str(getFilepath($file))->beforeLast('.'),
+            'href' => str(TokenFile::getFilepath($file))->beforeLast('.'),
         ];
         $node = $file->isDir() ? array($file->getFilename() => array()) : array($link);
         for ($depth = $files->getDepth() -1; $depth >= 0; $depth--) {
