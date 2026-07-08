@@ -1,0 +1,13 @@
+{
+	"text": {
+		"lineHeights": {
+			"$type": "number",
+			"normal": {
+				"$value": 1.2
+			},
+			"tall": {
+				"$value": 1.5
+			}
+		}
+	}
+}

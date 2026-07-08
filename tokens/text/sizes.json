@@ -1,0 +1,49 @@
+{
+  "text": {
+    "sizes": {
+      "$type": "fontSize",
+      "root": {
+        "$value": {
+          "value": 5,
+          "unit": "vmin"
+        }
+      },
+      "tiny": {
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        }
+      },
+      "small": {
+        "$value": {
+          "value": 0.9,
+          "unit": "rem"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        }
+      },
+      "large": {
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        }
+      },
+      "double": {
+        "$value": {
+          "value": 2,
+          "unit": "rem"
+        }
+      },
+      "quadruple": {
+        "$value": {
+          "value": 4,
+          "unit": "rem"
+        }
+      }
+    }
+  }
+}
