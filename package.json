@@ -9,7 +9,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "styles": "style-dictionary build"
+        "compile": "style-dictionary build --config=style-dictionary-config.js"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
