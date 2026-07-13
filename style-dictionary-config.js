@@ -5,7 +5,7 @@ export default {
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "storage/app/public/",
       "files": [
         {
           "destination": "setup.scss",
