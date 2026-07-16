@@ -8,8 +8,8 @@ export default {
       "buildPath": "storage/app/public/",
       "files": [
         {
-          "destination": "setup.scss",
-          "format": "scss/variables",
+          "destination": "variables.css",
+          "format": "css/variables",
           "options": {
             "outputReferences": true,
           }
