@@ -13,7 +13,7 @@
           "$value": "#f8f8f8"
         },
         "4": {
-          "$comment": "Originally $color__black--3-5",
+          "$comment": "Not in use, originally $color__black--3-5",
           "$value": "#f6f5f4"
         },
         "5": {
@@ -37,6 +37,7 @@
           "$value": "#ccc"
         },
         "22": {
+          "$comment": "Not in use",
           "$value": "#c7c7c7"
         },
         "25": {
@@ -59,13 +60,14 @@
           "$value": "#9d9fa2"
         },
         "49": {
+          "$comment": "Not in use",
           "$value": "#828282"
         },
         "50": {
           "$value": "#808080"
         },
         "52": {
-          "$comment": "Originally $color__grey--100",
+          "$comment": "Originally $color__grey--100 and $color__grey--130",
           "$value": "#7e746d"
         },
         "54": {

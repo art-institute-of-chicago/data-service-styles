@@ -4,6 +4,7 @@
       "$type": "color",
       "link": {
         "primary": {
+          "$comment": "Not in use",
           "$value": "{colors.scales.grey.0}"
         },
         "active": {
