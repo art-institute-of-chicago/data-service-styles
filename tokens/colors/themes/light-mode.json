@@ -70,6 +70,10 @@
         "gallery": {
           "$value": "{colors.scales.grey.90}"
         },
+        "editorial": {
+          "$comment": "Same as themes.editorial.background.primary",
+          "$value": "{colors.scales.grey.6}"
+        },
         "error": {
           "$value": "{colors.scales.red.5}"
         }
@@ -131,23 +135,29 @@
         },
         "new": {
           "primary": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.160}"
           },
           "active": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.180}"
           },
           "hover": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.170}"
           }
         },
         "limited": {
           "primary": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.80}"
           },
           "active": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.115}"
           },
           "hover": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.95}"
           }
         },
