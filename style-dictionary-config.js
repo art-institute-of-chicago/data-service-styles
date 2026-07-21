@@ -3,8 +3,8 @@ export default {
     "tokens/**/*.json"
   ],
   "platforms": {
-    "scss": {
-      "transformGroup": "scss",
+    "css": {
+      "transformGroup": "css",
       "buildPath": "storage/app/public/",
       "files": [
         {
