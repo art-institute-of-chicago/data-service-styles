@@ -3,6 +3,7 @@
     "names": {
       "$type": "color",
       "digipub": {
+        "$comment": "None of these are in use!?",
         "blue": {
           "dark": {
             "$value": "{colors.scales.blue.darkest}"
@@ -102,15 +103,18 @@
       },
       "rlc": {
         "antique-white": {
+          "$comment": "Not in use",
           "$value": "#f8e8d8"
         },
         "apricot": {
           "$value": "#f4ccaf"
         },
         "atomic-tangerine": {
+          "$comment": "Not in use",
           "$value": "#ff9d6c"
         },
         "blue-sapphire": {
+          "$comment": "Not in use",
           "$value": "#075a71"
         },
         "fawn": {
@@ -120,12 +124,15 @@
           "$value": "#e66144"
         },
         "japanese-indigo": {
+          "$comment": "Not in use",
           "$value": "#1e3f49"
         },
         "maastricth-blue": {
+          "$comment": "Not in use",
           "$value": "#00263a"
         },
         "maize": {
+          "$comment": "Not in use",
           "$value": "#f3c143"
         },
         "myrtle-green": {
@@ -135,6 +142,7 @@
           "$value": "#f9c83e"
         },
         "vermilion": {
+          "$comment": "Not in use",
           "$value": "#de2f1b"
         }
       }

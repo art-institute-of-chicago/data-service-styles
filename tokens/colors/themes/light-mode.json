@@ -17,8 +17,37 @@
         "primary": {
           "$value": "{colors.scales.grey.80}"
         },
+        "secondary": {
+          "$value": "{colors.scales.grey.54}"
+        },
+        "tertiary": {
+          "$value": "{colors.scales.grey.42}"
+        },
+        "accent": {
+          "$value": "{colors.scales.red.100}"
+        },
+        "contrast": {
+          "$comment": "The same as tertiary",
+          "$value": "{colors.scales.grey.42}"
+        },
+        "disabled": {
+          "$value": "{colors.scales.grey.20}"
+        },
+        "footer": {
+          "$value": "{colors.scales.grey.30}"
+        },
+        "forms": {
+          "$comment": "The same as footer",
+          "$value": "{colors.scales.grey.30}"
+        },
         "title": {
           "$value": "{colors.scales.grey.90}"
+        },
+        "title-contrast": {
+          "$value": "{colors.scales.grey.0}"
+        },
+        "type": {
+          "$value": "{colors.scales.grey.52}"
         }
       },
       "background": {
@@ -42,6 +71,7 @@
           "$value": "{colors.scales.grey.90}"
         },
         "editorial": {
+          "$comment": "Same as themes.editorial.background.primary",
           "$value": "{colors.scales.grey.6}"
         },
         "error": {
@@ -105,24 +135,41 @@
         },
         "new": {
           "primary": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.160}"
           },
           "active": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.180}"
           },
           "hover": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.blue.170}"
           }
         },
         "limited": {
           "primary": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.80}"
           },
           "active": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.115}"
           },
           "hover": {
+            "$comment": "Not in use",
             "$value": "{colors.scales.red.95}"
+          }
+        },
+        "alternative": {
+          "primary": {
+            "$value": "{colors.scales.blue.100}"
+          },
+          "active": {
+            "$value": "{colors.scales.blue.120}"
+          },
+          "hover": {
+            "$value": "{colors.scales.blue.110}"
           }
         }
       },
