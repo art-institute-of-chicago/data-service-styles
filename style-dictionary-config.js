@@ -3,13 +3,13 @@ export default {
     "tokens/**/*.json"
   ],
   "platforms": {
-    "css": {
-      "transformGroup": "css",
+    "scss": {
+      "transformGroup": "scss",
       "buildPath": "storage/app/public/",
       "files": [
         {
-          "destination": "variables.css",
-          "format": "css/variables",
+          "destination": "variables.scss",
+          "format": "scss/variables",
           "options": {
             "outputReferences": true,
           }
