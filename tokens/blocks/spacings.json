@@ -2,72 +2,72 @@
   "blocks": {
     "spacings": {
       "$type": "dimension",
-      "8": {
+      "half": {
         "$value": {
           "value": 8,
           "unit": "px"
         }
       },
-      "12": {
+      "small": {
         "$value": {
           "value": 12,
           "unit": "px"
         }
       },
-      "16": {
+      "default": {
         "$value": {
           "value": 16,
           "unit": "px"
         }
       },
-      "20": {
+      "medium-small": {
         "$value": {
           "value": 20,
           "unit": "px"
         }
       },
-      "24": {
+      "medium": {
         "$value": {
           "value": 24,
           "unit": "px"
         }
       },
-      "28": {
+      "medium-large": {
         "$value": {
           "value": 28,
           "unit": "px"
         }
       },
-      "32": {
+      "double": {
         "$value": {
           "value": 32,
           "unit": "px"
         }
       },
-      "36": {
+      "large": {
         "$value": {
           "value": 36,
           "unit": "px"
         }
       },
-      "40": {
+      "extra-large": {
         "$value": {
           "value": 40,
           "unit": "px"
         }
       },
-      "48": {
+      "triple": {
         "$value": {
           "value": 48,
           "unit": "px"
         }
       },
-      "60": {
+      "largest": {
         "$value": {
           "value": 60,
           "unit": "px"
         }
-      },
+      }
     }
   }
 }
