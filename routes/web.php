@@ -10,22 +10,24 @@ $files = new RecursiveIteratorIterator($directory);
 // For each token file, create two routes
 foreach ($files as $file) {
     $filepath = TokenFile::getFilepath($file);
+    $contents = file_get_contents($file);
+
     // Route to the raw JSON token file
-    Route::get($filepath, function() use ($file) {
-        return view('json', ['tokens' => file_get_contents($file)]);
+    Route::get($filepath, function() use ($contents) {
+        return view('json', ['tokens' => $contents]);
     });
 
     $path = str($filepath)->beforeLast('.')->toString();
     // Route to the human-readable token list
-    Route::get($path, function() use ($file) {
-        $tokens = json_decode(file_get_contents($file), true);
+    Route::get($path, function() use ($file, $filepath, $contents) {
+        $tokens = json_decode($contents, true);
         $category = array_key_first($tokens);
         $tokens = $tokens[$category];
         $type = array_key_first($tokens);
         $tokens = $tokens[$type];
         $items = TokenFile::collectItems($tokens);
         return view('tokens', [
-            'filepath' => '/' . TokenFile::getFilepath($file),
+            'filepath' => '/' . $filepath,
             'category' => $category,
             'type' => $type,
             'items' => $items,
