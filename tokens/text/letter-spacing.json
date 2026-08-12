@@ -1,7 +1,7 @@
 {
   "text": {
     "letterSpacings": {
-      "$type": "number",
+      "$type": "dimension",
       "wide": {
         "$value": {
           "value": 0.15,
