@@ -26,6 +26,12 @@
           "unit": "rem"
         }
       },
+      "medium": {
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        }
+      },
       "large": {
         "$value": {
           "value": 1.5,
