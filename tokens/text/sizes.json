@@ -44,6 +44,12 @@
           "unit": "rem"
         }
       },
+      "extra-large": {
+        "$value": {
+          "value": 2.5,
+          "unit": "rem"
+        }
+      },
       "quadruple": {
         "$value": {
           "value": 4,
